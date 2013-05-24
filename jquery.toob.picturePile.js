@@ -31,7 +31,7 @@
 				// Use following height for all pictures (with zero setting no fixed height)
 				'fixedHeight': 0,
 				// Size of caption
-				'captionSize': '30px'
+				'captionSize': 30
 			}, options);
 
 			// Create data attributes, if settings do not start with "data-"
@@ -62,10 +62,11 @@
 					if(settings.fixedHeight>0){
 						image.css('height',settings.fixedHeight + 'px');
 					}
+					image.css('padding-bottom',(settings.captionSize + 15) + 'px');
 					
 					var caption = $(document.createElement('figcaption'));
 					caption.text($(this).attr(settings.titleAttributeName));
-					caption.css('font-size',settings.captionSize);
+					caption.css('font-size',settings.captionSize + 'px');
 					
 					figure.append(image);
 					figure.append(caption);
