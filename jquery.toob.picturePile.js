@@ -29,7 +29,9 @@
 				// Use following width for all pictures (with zero setting no fixed width)
 				'fixedWidth': 0,
 				// Use following height for all pictures (with zero setting no fixed height)
-				'fixedHeight': 0
+				'fixedHeight': 0,
+				// Size of caption
+				'captionSize': '30px'
 			}, options);
 
 			// Create data attributes, if settings do not start with "data-"
@@ -63,6 +65,7 @@
 					
 					var caption = $(document.createElement('figcaption'));
 					caption.text($(this).attr(settings.titleAttributeName));
+					caption.css('font-size',settings.captionSize);
 					
 					figure.append(image);
 					figure.append(caption);
