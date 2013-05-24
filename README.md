@@ -52,7 +52,7 @@ As you can see above there are some settings (very few, in fact). Here they are 
 * ```maxRotationLeft': 5```: The maximum number of degrees to rotate an image to the left
 * ```maxRotationRight': 5```: The maximum number of degrees to rotate an image to the right
 
-One will probably never need the attribute name settings. I just generally like to include them in order to definately avoid naming clashes.
+One will probably never need the attribute name settings. I just generally like to include them in order to definitely avoid naming clashes.
 
 Notes
 -----
