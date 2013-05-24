@@ -2,6 +2,9 @@ picturePile
 =========================
 
 This jQuery plugin creates a pile of images from a list containing one list item for each image including some additional data. It's heavily untested, but at least it works for me in Chrome. I will do some further testing, of course. Or maybe.
+
+Here's a little demo to begin with: http://tobias-reinhardt.de/picture-pile-plugin
+
 Usage
 -----
 In your HTML you need a list (ordered, unordered, doesn't matter) containing the data items:
