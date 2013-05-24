@@ -40,3 +40,13 @@ And then there's the header part:
 	</script>
 </head>
 ```
+Settings
+--------
+As you can see above there are some settings (very few, in fact). Here they are (default values included):
+* ```targetAttributeName: 'target'```: The name of the data attribute containing the target for an image that is supposed to be a link
+* ```imageAttributeName: 'image'```: The name of the data-attribute containing the path to the image
+* ```titleAttributeName: 'title'```: The name of the data-attribute containing the title to be displayed on the image
+* ```maxRotationLeft': 5```: The maximum number of degrees to rotate an image to the left
+* ```maxRotationRight': 5```: The maximum number of degrees to rotate an image to the right
+
+
