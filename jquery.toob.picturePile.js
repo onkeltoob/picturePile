@@ -26,6 +26,10 @@
 				'imageAttributeName': 'image',
 				// The name of the data-attribute containing the title to display on the image
 				'titleAttributeName': 'title',
+				// Use following width for all pictures (with zero setting no fixed width)
+				'fixedWidth': 0,
+				// Use following height for all pictures (with zero setting no fixed height)
+				'fixedHeight': 0
 			}, options);
 
 			// Create data attributes, if settings do not start with "data-"
@@ -50,6 +54,12 @@
 					var image = $(document.createElement('img'));
 					image.attr('src', $(this).attr(settings.imageAttributeName));
 					image.attr('alt', $(this).attr(settings.titleAttributeName));
+					if(settings.fixedWidth>0){
+						image.css('width',settings.fixedWidth + 'px');
+					}
+					if(settings.fixedHeight>0){
+						image.css('height',settings.fixedHeight + 'px');
+					}
 					
 					var caption = $(document.createElement('figcaption'));
 					caption.text($(this).attr(settings.titleAttributeName));
