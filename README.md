@@ -7,13 +7,13 @@ Usage
 In your HTML you need a list (ordered, unordered, doesn't matter) containing the data items:
 ```
 <ul class="picturePile">
-	<li data-href="http://example.com/1" data-img="http://lorempixel.com/300/250" data-text="First placeholder image"></li>
-	<li data-href="http://example.com/2" data-img="http://lorempixel.com/300/250" data-text="Second placeholder image"></li>
-	<li data-href="http://example.com/3" data-img="http://lorempixel.com/300/250" data-text="Third placeholder image"></li>
-	<li data-href="http://example.com/4" data-img="http://lorempixel.com/300/250" data-text="And so on..."></li>
+	<li data-target="http://example.com/1" data-image="http://lorempixel.com/300/250" data-title="First placeholder image"></li>
+	<li data-target="http://example.com/2" data-image="http://lorempixel.com/300/250" data-title="Second placeholder image"></li>
+	<li data-target="http://example.com/3" data-image="http://lorempixel.com/300/250" data-title="Third placeholder image"></li>
+	<li data-target="http://example.com/4" data-image="http://lorempixel.com/300/250" data-title="And so on..."></li>
 </ul>
 ```
-And then there's the header part:
+If you doun't want the pictures to be links then you can just omit the ```data-target``` attribute (or leave it blank). And then there's the header part:
 
 ```
 <head>
@@ -48,5 +48,5 @@ As you can see above there are some settings (very few, in fact). Here they are 
 * ```titleAttributeName: 'title'```: The name of the data-attribute containing the title to be displayed on the image
 * ```maxRotationLeft': 5```: The maximum number of degrees to rotate an image to the left
 * ```maxRotationRight': 5```: The maximum number of degrees to rotate an image to the right
-
-
+One will probably never need the attribute name settings. I just generally like to include them in order to definately avoid naming clashes.
+And that is pretty much it right now.
