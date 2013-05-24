@@ -5,7 +5,7 @@ This jQuery plugin creates a pile of images from a list containing one list item
 Usage
 -----
 In your HTML you need a list (ordered, unordered, doesn't matter) containing the data items:
-```
+```html
 <ul class="picturePile">
 	<li data-target="http://example.com/1" data-image="http://lorempixel.com/300/250" data-title="First placeholder image"></li>
 	<li data-target="http://example.com/2" data-image="http://lorempixel.com/300/250" data-title="Second placeholder image"></li>
@@ -15,7 +15,7 @@ In your HTML you need a list (ordered, unordered, doesn't matter) containing the
 ```
 If you don't want the pictures to be links then you can just omit the ```data-target``` attribute (or leave it blank). And then there's the header part:
 
-```
+```html
 <head>
 	<!-- 
 		Usual header stuff (including link to jQuery) goes here. I'm aware of the discussion 
