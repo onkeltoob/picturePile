@@ -53,4 +53,4 @@ One will probably never need the attribute name settings. I just generally like 
 
 Notes
 -----
-The CSS part is still a little tricky (and by that I mean "pretty nasty"). There are a couple of pixel based calculations. Most of them probably depend on the the caption's font size, nut I haven't really figured that out. It's not a big deal to fiddle with the values if you're familiar with CSS.
+The CSS part is still a little tricky (and by that I mean "pretty nasty"). There are a couple of pixel based calculations. Most of them probably depend on the the caption's font size, but I haven't really figured that out. It's not a big deal to fiddle with the values if you're familiar with CSS.
