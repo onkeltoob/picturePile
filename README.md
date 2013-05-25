@@ -16,6 +16,8 @@ In your HTML you need a list (ordered, unordered, doesn't matter) containing the
 	<li data-target="http://example.com/4" data-image="http://lorempixel.com/300/250" data-title="And so on..."></li>
 </ul>
 ```
+The markup here is obviously not the best, since without the plugin it's just a random list without any content. It is, however, a pretty convenient way of preparing the data.
+
 If you don't want the pictures to be links then you can just omit the ```data-target``` attribute (or leave it blank). And then there's the header part:
 
 ```html
