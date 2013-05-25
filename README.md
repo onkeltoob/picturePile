@@ -51,6 +51,9 @@ As you can see above there are some settings (very few, in fact). Here they are 
 * ```titleAttributeName: 'title'```: The name of the data-attribute containing the title to be displayed on the image
 * ```maxRotationLeft': 5```: The maximum number of degrees to rotate an image to the left
 * ```maxRotationRight': 5```: The maximum number of degrees to rotate an image to the right
+* ```fixedWidth': 0```: Use this pixel based value as fixed width for all pictures (with zero setting no fixed width)
+* ```fixedHeight': 0```: Use this pixel based value as fixed height for all pictures (with zero setting no fixed height)
+* ```captionSize': 30```: Font size for text underneath the images.
 
 One will probably never need the attribute name settings. I just generally like to include them in order to definitely avoid naming clashes.
 
